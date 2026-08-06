@@ -1,19 +1,10 @@
-Scanner sc = new Scanner(System.in);
+public static void main(String[] args){
+        System.out.println(fibSpecial(5, 7, 5));
+}
 
-        int T = sc.nextInt();
+static int fibSpecial(int a, int b, int n){
+        if(n%3==0) return a;
+        if(n%3==1) return b;
 
-        while (T-- > 0) {
-            long a = sc.nextLong();
-            long b = sc.nextLong();
-            long n = sc.nextLong();
-
-            if (n % 3 == 0) {
-                System.out.println(a);
-            } else if (n % 3 == 1) {
-                System.out.println(b);
-            } else {
-                System.out.println(a ^ b);
-            }
-        }
-
-        sc.close();
+        return fibSpecial(a, b, n-1)^fibSpecial(a, b, n-2);
+}
