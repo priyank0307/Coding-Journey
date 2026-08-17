@@ -7,7 +7,7 @@ public static void main(String[] args){
       if(Math.abs(arr[i]-arr[j])+Math.abs(i-j)>max){
         max=Math.abs(arr[i]-arr[j])+Math.abs(i-j);
       }
-    }
+    }    
   }
 
 System.out.println(max);
