@@ -63,5 +63,17 @@ private static boolean isSafe(boolean[][] board, int row, int col){
   return true;
 }
 
-private static void 
+private static void display(boolean[][] board){
+    for(boolean[] row:board){
+      for(int element:row){
+        if(element){
+          System.out.print("Q ");
+        }else{
+          System.out.print("X ");
+        }
+      }
+      System.out.println();
+    }
+  }
+
     
