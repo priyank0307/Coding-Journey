@@ -1,4 +1,4 @@
-static void moveZero(int[] arr, int index, int last){
+static void moveZero(int[] arr, int index, int last){  
   if(index>=last){  
    System.out.println(Arrays.toString(arr));
    return;
