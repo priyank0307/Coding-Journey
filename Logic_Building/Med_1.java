@@ -1,4 +1,4 @@
-puclic static void main(String[] args){
+puclic static void main(String[] args){  
   int maxPlus=Integer.Min_Value;
   int minPlus=Integer.Max_Value;
   int maxMinus=Integer.Min_Value;
