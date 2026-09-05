@@ -1,4 +1,4 @@
-static ArrayList<String> path(String p, int r, int c){
+static ArrayList<String> path(String p, int r, int c){ 
   if(r==1 && c==1){
     ArrayList<String> list=new ArrayList<>();
     list.add(p);
