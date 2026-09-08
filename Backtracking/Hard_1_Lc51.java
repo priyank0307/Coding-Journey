@@ -3,7 +3,7 @@ class Solution {
         List<List<String>> ans=new ArrayList<>();
 
         boolean[][] board=new boolean[n][n];
-        queens(board, 0, ans);
+        queens(board, 0, ans);  
 
         return ans;
     }
