@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public int firstMissingPositive(int[] nums) {
         HashMap<Integer, Integer> map=new HashMap<>();
 
