@@ -1,4 +1,4 @@
-public static void main(Strings[] args){
+public static void main(Strings[] args){   
   int n=4;
   boolean[][] board=new boolean[n][n];
   nKinghts(board, 0, 0, 4);
