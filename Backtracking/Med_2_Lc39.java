@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> outer=new ArrayList<>();
         ArrayList<Integer> p=new ArrayList<>();
