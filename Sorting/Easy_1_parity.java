@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public int[] sortArrayByParityII(int[] nums) {
         int[] sort=new int[nums.length];
 
