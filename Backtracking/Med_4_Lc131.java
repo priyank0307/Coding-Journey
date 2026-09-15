@@ -1,5 +1,5 @@
 class Solution {
-    public List<List<String>> partition(String s) {
+    public List<List<String>> partition(String s) {  
         List<List<String>> outer=new ArrayList<>();
 
         backtrack(new ArrayList<>(), s, outer, 0);
