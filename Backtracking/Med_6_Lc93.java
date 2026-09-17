@@ -4,7 +4,7 @@ class Solution {
         String str="";
         backtrack(s, str, list, 0, 0);
 
-        return list;
+        return list;  
     }
 
     private static void backtrack(String s, String str, List<String> list, int index, int dotCnt){
