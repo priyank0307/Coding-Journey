@@ -27,7 +27,7 @@ class Solution {
 
         char temp=board[row][col];
         //marking visited
-        board[row][col]='#';
+        board[row][col]='#';  
 
         boolean found=validation(board, word, row-1, col, index+1)
                     || validation(board, word, row+1, col, index+1)
