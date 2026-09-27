@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public List<String> findWords(char[][] board, String[] words) {
         List<String> list=new ArrayList<>();
 
