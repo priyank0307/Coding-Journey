@@ -3,7 +3,7 @@ public static void main(String[] args){
         {true, true, true},
         {true, true, true},
         {true, true, true}
-  };
+  };  
   allPath("", maze, 0, 0);
 }
 
