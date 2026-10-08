@@ -1,4 +1,4 @@
-class Solution {
+class Solution {   
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> outer=new ArrayList<>();
         ArrayList<Integer> p=new ArrayList<>();
