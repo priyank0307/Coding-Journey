@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public int[] singleNumber(int[] nums) {
         HashMap<Integer, Integer> map=new HashMap<>();
         int[] unique=new int[2];
