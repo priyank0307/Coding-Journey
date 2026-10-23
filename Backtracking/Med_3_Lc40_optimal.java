@@ -1,4 +1,4 @@
-class Solution {
+class Solution {. 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {  
         List<List<Integer>> outer=new ArrayList<>();
         Arrays.sort(candidates);
